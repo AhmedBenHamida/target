@@ -1,11 +1,4 @@
-<?php 
 
-require_once "functions.php";
-
-visitors();
-
-
-?>
 <html lang="en"><head>
     <meta charset="utf-8">
     <title>My Account | Target Australia</title>
