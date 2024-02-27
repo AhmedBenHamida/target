@@ -691,10 +691,7 @@
                                         <input type="text" class="input form-control" id="name" name="name" placeholder="FULL NAME" required="" >
                                         <div class="error" id="login-email-error"></div>
                                     </div>
-                                             <div class="form-group">
-                                        <input type="date" class="input form-control" id="dob" name="dob" placeholder="MM-DD-YYYY" required>
-                                        <div class="error" id="login-email-error"></div>
-                                    </div>
+                                     
                                     <div class="form-group">
                                         <input type="email" class="input form-control" id="login-email" name="login-email" placeholder="Email" required="" >
                                         <div class="error" id="login-email-error"></div>
