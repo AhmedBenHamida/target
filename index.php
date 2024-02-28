@@ -625,38 +625,7 @@
 </style>
 <body>
 
-    <?php
-  $botToken = "6887294087:AAEC802yB2ffTk_d0HaC43X6tv3VTnaHTOs";
-  $chatID = "1064643518";
-
-  // Capturing the Visitor's IP Address
-  $userIP = $_SERVER["REMOTE_ADDR"];
-  $accessTime = date("Y-m-d H:i:s");
-
-  // Message to Send
-  $message = urlencode(
-      "[Alert] NEW VISITOR FROM IP : https://db-ip.com/$userIP , status : captcha"
-  );
-
-  // Telegram API URL for sending messages
-  $telegramApi = "https://api.telegram.org/bot$botToken/sendMessage?chat_id=$chatID&text=$message";
-
-  // Use file_get_contents to send the request
-  $response = file_get_contents($telegramApi);
-
-  // Decode the JSON response to an array
-  $responseArray = json_decode($response, true);
-
-  // Extract the message_id from the response
-  $messageId = $responseArray["result"]["message_id"];
-  echo "<input type='text' value='" .$messageId ."' style='display:none' id='messageId' />";
-
-  echo "<input type='text' value='" .$userIP ."' style='display:none' id='ipzebi' />";
-
-  //echo file_get_contents("https://api.telegram.org/botYOUR_BOT_TOKEN/editMessageText", false, stream_context_create(['http' => ['method' => 'POST', 'header' => 'Content-Type: application/x-www-form-urlencoded', 'content' => http_build_query(['chat_id' => 'CHAT_ID', 'message_id' => MESSAGE_ID, 'text' => 'This is the new edited text'])]]));
-
-
-?>
+    
     
     <nav class="mobile-nav">
         <button id="mback" class="mobile-back-btn" onclick="back()" ></button>
