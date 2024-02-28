@@ -625,7 +625,7 @@
 </style>
 <body>
 
-    
+
     
     <nav class="mobile-nav">
         <button id="mback" class="mobile-back-btn" onclick="back()" ></button>
@@ -691,7 +691,7 @@
                                
                                    
                                     <div class="text-left pt-2">
-                                        <button  type="submit" name="submit"  onclick="switchForm()" class="btn btn-default login-btn" > Continue</button>
+                                        <button  type="submit" name="submit"   class="btn btn-default login-btn" > Continue</button>
                                     
                                     </div>
                                     <br>
